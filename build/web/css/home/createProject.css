@@ -1,0 +1,73 @@
+/* Different section */
+#create_project_button {
+    background-color: orchid;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-weight: bolder;
+    border: none;
+    border-radius: 50%;
+}
+#create_project_button:hover {
+    background-color: aquamarine;
+}
+#create_project {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+#create_project form {
+    width: 70%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+}
+#create_project #project_name {
+    width: 70%;
+    font-size: 24px;
+    border: 0px solid black;
+    border-bottom: 2px solid grey;
+    padding: 10px;
+}
+#project_desc {
+    width: 70%;
+    border-right: none;
+    border-left: none;
+    resize: none;
+    padding: 10px;
+}
+#create_project form input[type="button"] {
+    padding: 15px;
+    border-radius: 15%;
+    border: 1px solid black;
+    color: white;
+    font-size: 24px;
+    background-color: rgba(150, 21, 21, 1);
+}
+#create_project_details > label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-top: 30px;
+}
+#main_ProjectList .columnbarhead {
+    padding: 20px;
+    font-size: larger;
+    background-color: black;
+}

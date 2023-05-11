@@ -1,0 +1,13 @@
+#home .bg-green {
+    color: black;
+    background-color: greenyellow;
+}
+#home .bg-green:hover {
+    background-color: green;
+}
+body > nav > .activeNavbar {
+    background-color: rgba(255, 192, 203, 1);
+}
+body > nav > .activeNavbar:hover {
+    background-color: rgba(255, 192, 203, 1);
+}

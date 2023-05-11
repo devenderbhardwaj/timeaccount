@@ -1,0 +1,11 @@
+#projects {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 40px;
+    display: none;
+}
+
+#projects .project {
+
+    border: 1px solid red;
+}

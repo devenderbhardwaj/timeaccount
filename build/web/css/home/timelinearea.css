@@ -1,0 +1,59 @@
+.timelineArea {
+    width: 600px;
+    overflow-y: auto;
+    display: flex;
+    gap: 40px;
+    flex-flow: column nowrap;
+    background-color: white;
+    border-left: 15px solid #f3f3f3;
+    
+}
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+    
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(128, 128, 128, 0.5);
+    border-radius: 10px;
+  }
+.day {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+    padding: 0 15px 15px 0;
+    background-color: #f3f3f3;
+}
+
+.day> *:last-child {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+    background-color: inherit;
+}
+
+
+.dateLine {
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 5px 0;
+    border-radius: 15px;
+}
+.timeline {
+    display: flex;
+    flex-flow:  row nowrap;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+.timeline.active {
+    background-image: linear-gradient(90deg, hsla(181, 81%, 48%,0.3), hsla(320, 81%,48%,0.3));
+}
